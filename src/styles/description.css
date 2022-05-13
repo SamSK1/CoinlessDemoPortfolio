@@ -1,0 +1,32 @@
+.HeaderDesc{
+    color: white;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.HeaderDesc>h1{
+    font-size: 44px;
+}
+.HeaderDesc>p{
+    font-size: 28px;
+    font-family: 'Roboto',Arial,sans-serif;
+
+}
+.section2{
+    position: relative;
+    padding-top: 10%;
+}
+.stripe{
+    background-color: #f2d82f;
+    height: 80px;
+    width: 100%;
+}
+.OurServices{
+    color: white;
+    font-size: 44px;
+    display: grid;
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 1%;
+
+}
