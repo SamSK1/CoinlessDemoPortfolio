@@ -1,24 +1,27 @@
 .mainItemsRight{
     position: absolute;
     margin-left: 20%;
-    left: 1%;
-    padding-top: 200px;
+    left: -05%;
+    padding-top: 5%;
+    display: grid;
+    text-align: center;
 
 }
 .mainItemsRight>h1{
-    font-size: 70px;
+    font-size: 350%;
     font-family: 'Arial',Arial,sans-serif;
 
 }
 .mainItemsRight>p{
     color: #9e9e9c;
-    font-size: 24px;
+    font-size: 130%;
     padding-bottom: 4%;
+    font-family: 'Arial',Arial,sans-serif;
 }
 .timka{
     position: absolute;
-    left: 60%;
-    width: 550px;
+    left: 67%;
+    width: 25%;
 }
 .buttonsUL{
     list-style-type: none;
@@ -37,13 +40,13 @@
     height: 60px;
     width: 260px;
     color: black;
-    background-color: yellow;
+    background-color: #f2d82f;
     display: grid;
     text-align: center;
     align-items: center;
     border-radius: 30px;
     margin-left: 10%;
-
+    font-family: 'Arial',Arial,sans-serif;
 }
 .buttonBox2{
     height: 60px;
@@ -54,6 +57,7 @@
     text-align: center;
     align-items: center;
     border-radius: 30px;
+    font-family: 'Arial',Arial,sans-serif;
 
 }
 .buttonBox2:hover{

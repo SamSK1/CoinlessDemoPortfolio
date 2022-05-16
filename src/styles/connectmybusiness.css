@@ -1,0 +1,48 @@
+
+.CMBSection{
+    color: white;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    background-color: #2c3e50;
+    position: relative;
+    font-size: 24px;
+      
+}
+.pleaseP{
+    width:550px;
+    font-family: 'Roboto',Arial,sans-serif;
+    padding-left: 13%;
+
+}
+.ULForms{
+    list-style-type: none;
+    position: relative;
+    font-family: 'Roboto',Arial,sans-serif;
+    padding-top: 10%;
+}
+.ULForms>li{
+    padding-bottom: 6%;
+}
+.formHeaders{
+    display: grid;
+    text-align: start;
+    padding-bottom: 1%;
+}
+.ConnectMeButton{
+ 
+    border: yellow solid 1px;
+    height: 66px;
+    width: 250px;
+    color: black;
+    background-color: #f2d82f;
+    border-radius: 16px;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20%;
+}

@@ -3,12 +3,11 @@
     display: grid;
     justify-content: center;
     text-align: center;
+    background-color: #2c3e50;
 }
-.HeaderDesc>h1{
-    font-size: 44px;
-}
+
 .HeaderDesc>p{
-    font-size: 28px;
+    font-size: 300px;
     font-family: 'Roboto',Arial,sans-serif;
 
 }
@@ -18,15 +17,85 @@
 }
 .stripe{
     background-color: #f2d82f;
-    height: 80px;
+    height:80px;
     width: 100%;
+    
 }
+@keyframes slide {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-1500px, 0, 0); /* The image width */
+    }
+  }
+
 .OurServices{
     color: white;
-    font-size: 44px;
+    font-size: 49px;
     display: grid;
     text-align: center;
     font-weight: 700;
     padding-bottom: 1%;
+    font-family: 'Roboto',Arial,sans-serif;
 
+}
+.UlProperties{
+    list-style-type: none;
+    display: grid;
+    position: relative;
+    
+}
+.UlProperties>li{
+    padding-bottom: 15%;
+    width: 250px;
+    
+    
+    
+}
+.LiH1Props{
+    font-size: 50px;
+    font-weight:800;
+    font-family: 'Roboto',Arial,sans-serif;
+}
+.images{
+    width: 200px;
+    padding-bottom: 20%;
+    display: grid;
+    position: relative;
+    
+}
+#Guests{
+    /* position: absolute; */
+    left: 10%;
+}
+#Staff{
+    /* position: absolute; */
+    left: 0%;
+}
+#Owners{
+    /* position: absolute; */
+    left: 10%;
+}
+.descriptionsP{
+    font-size: 25px;
+    font-weight: 100;
+    font-family: 'Roboto',Arial,sans-serif;
+}
+.HeaderSubheader{
+    padding-top: 10%;
+    font-size: 30px;
+    font-family: 'Roboto',Arial,sans-serif;
+    padding-bottom: 3%;
+}
+.stripeContent{
+    display: flex;
+    gap: 9%;
+    font-size: 26px;
+    padding-top: 1%;
+   margin-left: 0%;
+   font-family: 'Roboto',Arial,sans-serif;
+   font-weight: 100;
+   /* animation: slide 15s linear infinite; */
+   overflow: hidden;
 }

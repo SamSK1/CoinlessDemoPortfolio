@@ -1,14 +1,15 @@
 import React from "react";
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
-import Timka from '../styles/timka.png';
+import Timka from '../styles/images/timka.png';
 export default function MainContent(){
     return(
         
             <Box sx={{
                 height:'700px',
-                
+                paddingTop:'4%',
                 position:'relative',
+                
             }}>
             <Grid container spacing={0} sx={{
                 color:'white',

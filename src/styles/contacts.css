@@ -1,0 +1,26 @@
+.contactsDiv{
+    background-color:#10253a ;
+}
+.contactsDiv{
+    color: white;
+    display: grid;
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Roboto',Arial,sans-serif;
+    position: relative;
+    
+}
+
+.contactsDiv>ul{
+    list-style-type: none;
+    padding-bottom: 2%;
+    display: grid;
+    text-align: center;
+    padding-left: 0px;
+}
+.contactDetails>li{
+    padding-bottom: 1%;
+}
+.contactsPosition{
+    padding-left: 2%;
+}

@@ -2,7 +2,8 @@
     position: relative;
     padding-top: 1%;
     width: 100%;
-    height: 100px;
+    height: 100%;
+   
     
 }
 
@@ -10,21 +11,22 @@
     list-style-type: none;
     display: flex;
     gap:5%;
-    margin-left:40% ;
+    margin-left:20% ;
 
 }
 .Logo{
-    padding-top: 1%;
-    width: 300px;
+
+    width: 50%;
 }
 .UlRight{
     list-style-type: none;
     display: flex;
     gap:8%;
     padding-left: 5%;
-    
+
     
 }
+
 .LoginButton{
     /* color:'#f2d82f';
     fontSize:'22px';
@@ -32,7 +34,7 @@
     border:'solid #f2d82f 2px'
                       */
     color:#f2d82f ;
-    font-size:18px;
+    font-size:100%;
     font-weight: 600;
     display: grid;
     justify-content: center;
